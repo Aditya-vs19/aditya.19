@@ -31,4 +31,48 @@ border: solid red;
     color: white;
     text-align: left;
     margin-left: 600px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #f90800;
+    transition: .5s;
+}
+.btn{
+    background-color: orangered;
+    color: rgb(11, 11, 11);
+     text-decoration:none ;
+     border: 1px solid transparent;
+     border-radius: 25px;
+     font-weight: bold;
+     padding: 10px;
+     transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.data{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
     
